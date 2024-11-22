@@ -26,7 +26,7 @@ def getSensitiveParamsFromFile():
 
 class BurpExtender(IBurpExtender, ITab,IHttpListener,IExtensionStateListener):
     def __init__(self):
-        self.target_whitelist = []  # 添加你的白名单目标
+        self.target_whitelist = []  # 添加你的白名单目标ggggggg
 
 
     def registerExtenderCallbacks(self, callbacks):
